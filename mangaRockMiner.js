@@ -2,7 +2,7 @@ let request = require('request')
 
 
 // Headers
-let clientID = '40characterLongYOURClientID';
+let clientID = 'lpY0gkLg4LOtrTAtNT1L1vwC1llTWkr0F8wusC5i';
 let headers = {
 	'X-Parse-Session-Token': 'r:c165f59eaf8fb7ffa0f096ab600edd02',
 	'X-Parse-Application-Id': 'DOTecsAUU0hHsVe50hQqCltNmpzx5hbwJB60FfyM',
