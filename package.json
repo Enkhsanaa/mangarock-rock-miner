@@ -1,0 +1,11 @@
+{
+  "name": "MangaRockMiner",
+  "version": "1.0.0",
+  "description": "Mines Rocks on MangaRock App",
+  "main": "mangaRockMiner.js",
+  "author": "Enkhsanaa",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.87.0"
+  }
+}
