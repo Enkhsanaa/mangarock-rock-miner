@@ -1,11 +1,11 @@
 let request = require('request')
 
-
 // Headers
-let clientID = 'lpY0gkLg4LOtrTAtNT1L1vwC1llTWkr0F8wusC5i';
+let clientID = 'lpY0gkLg4LOtrTAtNT1L1vwC1llTWkr0F8wusC5i'; // your client ID
+let sessionToken = 'r:c165f59eaf8fb7ffa0f096ab600edd02'; // your session Token
 let headers = {
-	'X-Parse-Session-Token': 'r:c165f59eaf8fb7ffa0f096ab600edd02',
 	'X-Parse-Application-Id': 'DOTecsAUU0hHsVe50hQqCltNmpzx5hbwJB60FfyM',
+	'X-Parse-Session-Token': sessionToken,
 	'X-Parse-Client-Key': clientID
 };
 

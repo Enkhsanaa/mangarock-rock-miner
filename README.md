@@ -2,19 +2,29 @@
 
 ## How to run
 
-1. Find out your client id of mangarock app
+1. Find out client id and session token of your mangarock app
 
-  * Every network request from your authenticated mangarock app will include your client id, catch it using your own means. Possible options are wireshark, setting up a proxy server etc.
-  * Client id is 40 characters long and is included in ```X-Parse-Application-Id``` header
+  * Every network request from your authenticated mangarock app will include them, catch it using your own means. Possible options are wireshark, setting up a proxy server etc.
+  * Client id is 40 characters long and is included in ```X-Parse-Application-Id``` header (Sample: ``` lpY0gkLg4LOtrTAtNT1L1vwC1llTWkr0F8wusC5i ```)
+  * Session token is 34 characters long and is included in ```X-Parse-Session-Token``` header (Sample: ``` r:c165f59eaf8fb7ffa0f096ab600edd02 ```)
   
-2. Update ```clientID``` variable in ```mangaRockMiner.js``` with your client id
-3. Clone this repository, and install dependencies
+2. Clone this repository
+
 ```sh
 $ git clone https://github.com/Enkhsanaa/mangarock-rock-miner
+```
+
+3. Update ```clientID``` and ```sessionToken``` variables in ```mangaRockMiner.js```
+
+4. Install dependencies
+
+```sh
 $ cd mangarock-rock-miner
 $ npm install
 ```
-4. Run script
+
+5. Run script
+
 ```sh
 $ npm start
 ```
